@@ -21,6 +21,5 @@ Word2Vec
 Ranking Function:
 TD - IDF score
 
-Evaluation :
-
-Manual Evaluation:
+Evaluation:
+Trec Evaluation
