@@ -5,8 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 /**
- * Created by Niranjan on 4/4/2016.
+ * Created by Srijhari on 4/4/2016.
  */
+ 
 public class ConvertToLDAFormat {
     private static final String NEW_LINE_SEPARATOR = "\n";
     private static final String COMMA_DELIMITER = ",";
@@ -47,7 +48,7 @@ public class ConvertToLDAFormat {
                         String[] tweetDocument = docContent.split("\\%\\*\\*\\*\\%");
                         if (tweetDocument.length > 1 && (tweetDocument[1] != null && !tweetDocument[1].equals(" "))) {
 
-                            fileWriter.append(tweetDocument[1].replaceAll("[-+^:\\/()!'=]", " "));
+                            fileWriter.append(tweetDocument[1].replaceAll("[-+^:\\/()!'=\"]", " "));
                             fileWriter.append(COMMA_DELIMITER);
                             fileWriter.append(NEW_LINE_SEPARATOR);
                         }

@@ -1,9 +1,26 @@
 # TwitterHashTagRecommendation
-Twitter Hashtag Recommendation with Lucene and LDA
+
+Twitter Hash-Tag Recommendation based on Textual Data
 
 
-Indexing is carried out on the textual data obtained from tweets posted by users on the micro blogging site Twitter.
-Indexing and Searching is powered by Apache Lucene Framework.
-StandardAnalyzer package from Lucene is used to index the textual data.
-PhraseQuery or BooleanQuery or TermQuery is used to query the index based on the keywords selected by each topic.
-Identification of Keywords for search is obtained by Topic Modelling with the help of Latent Dirichlet Allocation .
+
+Important modules and the respective Implementation Strategy.
+
+
+Data Parsing:
+Java
+
+Indexing:
+Apache Lucene
+
+Topic Modelling Strategy :
+Bag of Words
+LDA
+Word2Vec
+
+Ranking Function:
+TD - IDF score
+
+Evaluation :
+
+Manual Evaluation:

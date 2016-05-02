@@ -52,17 +52,6 @@
             <version>1.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.7.13</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.5.5</version>
-        </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -75,6 +64,7 @@
             <artifactId>gson</artifactId>
             <version>2.3.1</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.json</groupId>
@@ -108,7 +98,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
-            <version>1.5.5</version>
+            <version>1.7.21</version>
         </dependency>
 
         <dependency>
@@ -128,6 +118,7 @@
             <artifactId>lucene-queryparser</artifactId>
             <version>5.2.0</version>
         </dependency>
+        
 
         <dependency>
             <groupId>org.apache.lucene</groupId>
@@ -141,6 +132,21 @@
             <version>5.2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-ui</artifactId>
+            <version>0.4-rc3.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-nlp</artifactId>
+            <version>0.4-rc3.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-x86</artifactId>
+            <version>0.4-rc3.8</version>
+        </dependency>
 
     </dependencies>
 

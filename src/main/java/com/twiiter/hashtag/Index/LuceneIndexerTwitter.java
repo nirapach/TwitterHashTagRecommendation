@@ -1,6 +1,4 @@
-package com.twiiter.hashtag.Index; /**
- * Created by Niranjan on 12/6/2015.
- */
+package com.twiiter.hashtag.Index;
 
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.Sentence;
@@ -24,6 +22,10 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Created by Niranjan on 10/3/2016.
+*/
 
 @SuppressWarnings("unchecked")
 public class LuceneIndexerTwitter {
@@ -69,8 +71,10 @@ public class LuceneIndexerTwitter {
         ArrayList<String> tag = new ArrayList<String>();
         tag.add(TWEETS);
         tag.add(HASHTAGS);
+
         //in future if want to index more fields add them here
-        //System.out.println(tag.size());
+
+
         int corpuslen = 0;
         for (int i = 0; i < files.length; i++) {
             corpuslen++;
@@ -80,12 +84,12 @@ public class LuceneIndexerTwitter {
                     && files[i].canRead() && files[i].exists()) {
                 System.out.println("\n Indexing is going on with file"
                         + files[i].getCanonicalPath());
-                // File f = new File(files[i].getCanonicalPath());
+
                 String fileContent = new String(Files.readAllBytes(Paths
                         .get(files[i].getCanonicalPath())));
                 String[] alldocs = fileContent.split("\n");
                 int docsize = alldocs.length;
-                //System.out.println(docsize);
+                System.out.println(docsize);
                 String[] documents = new String[docsize - 2];
                 for (int k = 1; k < docsize-1; k++) {
                     documents[k-1] = alldocs[k];
@@ -97,10 +101,10 @@ public class LuceneIndexerTwitter {
                     //System.out.println(docContent);
                     String[] tweetDocument = docContent.split("\\%\\*\\*\\*\\%");
                     Document document = new Document();
-                    //System.out.println(tweetDocument.length);
+
                     if(tweetDocument.length>1){
                     for (int t = 0; t < tweetDocument.length; t++) {
-                       // System.out.println(tweetDocument[t]);
+
 
                         if (t == 1 && (tweetDocument[t]!=null || !tweetDocument[t].equals(" "))) {
                             tweetDocument[t] = tweetDocument[t].replaceAll("[-+^:\\/()!'=]", " ");
@@ -158,7 +162,7 @@ public class LuceneIndexerTwitter {
 
     }
 
-    // com.KBP.Evidence.main method where the object for the GenerateIndex class is instantiated
+    // main method where the object for the LuceneIndexerTwitter class is instantiated
     public static void main(String[] args) throws Exception {
 
         // this has the path where the index needs to be created
@@ -167,8 +171,10 @@ public class LuceneIndexerTwitter {
         // this is the path from which the documents to be indexed
         File datadirectory = new File("C:\\Users\\Niranjan\\Documents\\Spring2016\\BigData\\Project\\");
 
+
         // filetype that is present in the corpus
         String filetype = "txt";
+
 
         // this object will call the index method to generate the indexing
         LuceneIndexerTwitter corpusindex = new LuceneIndexerTwitter();
@@ -178,4 +184,3 @@ public class LuceneIndexerTwitter {
     }
 
 }
-

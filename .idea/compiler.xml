@@ -40,8 +40,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="KBPEvidence" target="1.5" />
-      <module name="KBPEvidenceForRelations" target="1.6" />
       <module name="TwitterHashTagRecommendation" target="1.6" />
     </bytecodeTargetLevel>
   </component>
