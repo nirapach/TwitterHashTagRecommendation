@@ -1,4 +1,16 @@
 
+
+
+/**
+ * 
+ * 
+ * Created by Rohit Patil and Rahul Sampat on 4/14/2016.
+ * Parser File which runs through the entire dataset and parses just the tweet text and the hashtags.
+ * Output is written in .txt files with an upper limit of 1000 tweets per file
+*/
+
+
+
 package com.twiiter.hashtag.Parser;
 
 import java.io.BufferedReader;
@@ -10,19 +22,11 @@ import java.util.Map;
 import java.util.TreeMap;
 
 
-/*
- * Created by Rohit Patil and Rahul Sampat
- * Parser File which runs through the entire dataset and parses just the tweet text and the hashtags.
- * Output is written in .txt files with an upper limit of 1000 tweets per file
- *
- *
-*/
-
 
 public class DataParser {
 
 
-	private static final String path = "E:\\Rahul\\Spring 2016\\Courses\\ILS-Z 604 Big Data Analytics\\Project\\Dataset\\UDI-TwitterCrawl-Aug2012-Tweets2\\tweets";
+	private static final String path = "C:\\Users\\Rohit\\Desktop\\BigData\\TweetIndex\\UDI-TwitterCrawl-Aug2012-Tweets2\\tweets";
 
 	public void readFile() {
 		BufferedReader reader = null;
@@ -71,7 +75,7 @@ public class DataParser {
 			}
 
 			System.out.println("Map Size: " + tweetMap.size());
-			String fileName = "E:\\Rahul\\Spring 2016\\Courses\\ILS-Z 604 Big Data Analytics\\Project\\Dataset\\UDI-TwitterCrawl-Aug2012-Tweets\\Output6\\11\\outfile";
+			String fileName = "C:\\Users\\Rohit\\Desktop\\BigData\\TweetIndex\\UDI-TwitterCrawl-Aug2012-Tweets\\Output6\\11\\outfile";
 
 			File	file = new File(fileName + (lineCount++) + ".txt");
 			fop = new FileOutputStream(file);

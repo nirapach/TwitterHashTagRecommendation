@@ -1,9 +1,15 @@
-package com.twiiter.hashtag.Search;
-
 
 /**
- * Created by Rohit Patil on 4/14/2016.
+ * Created by Rohit Patil on 04/14/2016.
+ * Search the index file based on the top ranked keywords and recommend hashtags (Mentionwords) for the tweets which are found a hit
+ * 
+ * Output is written in .txt file.
+ * Same search query is used for both LDA +BOW and BOW + WORD2VEC
  */
+
+
+package com.twiiter.hashtag.Search;
+
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
