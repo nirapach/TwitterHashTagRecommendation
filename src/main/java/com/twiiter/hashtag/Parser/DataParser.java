@@ -3,8 +3,7 @@
 
 /**
  * 
- * 
- * Created by Rohit Patil and Rahul Sampat on 4/14/2016.
+ * Created by Rohit Patil on 4/14/2016.
  * Parser File which runs through the entire dataset and parses just the tweet text and the hashtags.
  * Output is written in .txt files with an upper limit of 1000 tweets per file
 */

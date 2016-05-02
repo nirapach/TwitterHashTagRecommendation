@@ -1,8 +1,15 @@
 
 
 /**
+ * 
  * Created by Rahul Sampat on 04/21/2016.
+ * Calculates the relevance scores for all the keywords under all the topics based on their presence in the dataset.
+ *
+ * Output is written in .txt file
+ * Same ranking function is used for both LDA +BOW and BOW + WORD2VEC
+ * 
  */
+ 
 
 package com.twiiter.hashtag.Search;
 
@@ -34,6 +41,7 @@ class ValueComparator implements Comparator<String>{
     }
 
     @Override
+	
     public int compare(String s1, String s2) {
         if(map.get(s1) >= map.get(s2)){
             return -1;
@@ -50,7 +58,7 @@ public class LuceneQueryTwitterRankingFunction {
     //CSV file header
     private static final String FILE_HEADER = "QUERYSTRING,SCORE";
     private static String TWEETNO = "TweetNo";
-    private static String TWEETS = "Tweet";
+    private static String TWEET = "Tweet";
     private static String HASHTAGS = "Hashtag";
 
     public static void main(String args[]) throws IOException, ParseException {
@@ -100,7 +108,7 @@ public class LuceneQueryTwitterRankingFunction {
 
         IndexSearcher searcher = new IndexSearcher(DirectoryReader.open(FSDirectory.open(path)));
 
-        QueryParser parser = new QueryParser(TWEETS, new StandardAnalyzer());
+        QueryParser parser = new QueryParser(TWEET, new StandardAnalyzer());
 
         DefaultSimilarity similarity = new DefaultSimilarity();
         searcher.setSimilarity(similarity);
@@ -141,7 +149,7 @@ public class LuceneQueryTwitterRankingFunction {
                         //lucene phrase query
                         PhraseQuery queryMentions = new PhraseQuery();
 
-                        queryMentions.add(new Term(TWEETS, mentionWord));
+                        queryMentions.add(new Term(TWEET, mentionWord));
                         BooleanQuery booleanQuery = new BooleanQuery();
                         booleanQuery.add(queryMentions, BooleanClause.Occur.MUST);
                         //do the search
