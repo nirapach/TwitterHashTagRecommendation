@@ -33,6 +33,8 @@ Topic Modelling Strategy :
 	Bag of Words
 	LDA
 	Word2Vec
+	LDA + Bag of Words
+	Word2Vec + Bag of Words
 	
 Ranking Function: 
 
@@ -49,10 +51,8 @@ New Additions :
 
 
 
-Please find attached project report in the repository
 
-
-References
+References :
 
 	[1] Roman Dovgopol and Matt Nohelty. Twitter Hash Tag Recommendation, University of Minnesota,2015
 	
@@ -64,3 +64,7 @@ References
 	http://machinelearningmastery.com/linear-regression-in-r/
 	
 	[5] Apache Lucene : https://lucene.apache.org/core/
+	
+	
+	
+	Please find attached project report in the repository
