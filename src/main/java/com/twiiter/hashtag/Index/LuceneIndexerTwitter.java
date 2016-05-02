@@ -33,7 +33,7 @@ public class LuceneIndexerTwitter {
     /**
      * @param args
      */
-    private static String TWEETNO = "TweetNo";
+    private static String TWEETNUMBER = "TweetNo";
     private static String TWEETS = "Tweet";
     private static String HASHTAGS = "Hashtag";
 
@@ -126,7 +126,7 @@ public class LuceneIndexerTwitter {
 
                             contentBuffer.append(tweetDocument[t]);
                             tagContent = contentBuffer.toString();
-                            document.add(new TextField(TWEETNO, tagContent, Field.Store.YES));
+                            document.add(new TextField(TWEETNUMBER, tagContent, Field.Store.YES));
 
                         } else {
 
