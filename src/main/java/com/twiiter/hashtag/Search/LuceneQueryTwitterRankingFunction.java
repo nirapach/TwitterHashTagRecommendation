@@ -1,11 +1,13 @@
 
 
 /**
+ * 
  * Created by Rahul Sampat on 04/21/2016.
- Calculates the relevance scores for all the keywords under all the topics based on their presence in the dataset.
- 
- Output is written in .txt file
- Same ranking function is used for both LDA +BOW and BOW + WORD2VEC
+ * Calculates the relevance scores for all the keywords under all the topics based on their presence in the dataset.
+ *
+ * Output is written in .txt file
+ * Same ranking function is used for both LDA +BOW and BOW + WORD2VEC
+ * 
  */
  
 
