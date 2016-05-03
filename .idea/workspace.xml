@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb960ea-6ad0-4849-8981-e094e0c38a21" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Word2Vec_Query_Tags.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LDA_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LDA_TrecResults.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Word2Vec_TrecResults.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Word2vec_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/LDA_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Word2vec_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
     </list>
     <ignored path="KBPEvidence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +70,8 @@
       <file leaf-file-name="TRECEvaluationResultFileGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.480737">
-              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.62981576">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="e#0#6809#0" expanded="true" />
               </folding>
@@ -1037,7 +1042,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462227037140</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Modified ground truth genearation file&#10;">
+      <created>1462238092663</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1462238092663</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1096,7 +1107,8 @@
     <MESSAGE value="Added the TREC Eval Documents generator code" />
     <MESSAGE value="Added the trec evaluation query and result files files" />
     <MESSAGE value="Pushed the code from github.iu.edu to github.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed the code from github.iu.edu to github.com" />
+    <MESSAGE value="Modified ground truth genearation file&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified ground truth genearation file&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1480,8 +1492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.480737">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.62981576">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
             <element signature="e#0#6809#0" expanded="true" />
           </folding>
