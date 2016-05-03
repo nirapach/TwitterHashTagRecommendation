@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb960ea-6ad0-4849-8981-e094e0c38a21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LDA_3.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Parser/DataParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitterRankingFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/word2vec/WordTwoVec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Graphlab_File_No3_LDA_Result.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LDA_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LDA_Query_Eval.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Word2Vec_Query_Tags.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Word2vec_Evaluation_Tweet_Dcoument_Scores_for_the_queries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Word2vec_Query_Eval.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_5_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/main/KBPEvidence.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/views/StatsInformationCaller.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/Index/LuceneIndexerTwitter.class" afterPath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/Index/LuceneIndexerTwitter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/LDA/ConvertToLDAFormat.class" afterPath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/LDA/ConvertToLDAFormat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/Search/LuceneQueryTwitter.class" afterPath="$PROJECT_DIR$/target/classes/com/twiiter/hashtag/Search/LuceneQueryTwitter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Word2Vec_Query_Tags.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Index/LuceneIndexerTwitter.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Index/LuceneIndexerTwitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/LDA/ConvertToLDAFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/LDA/ConvertToLDAFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitter.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Twitter-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/Twitter-app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Twitter-app-context.xml" afterPath="$PROJECT_DIR$/target/classes/Twitter-app-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="$PROJECT_DIR$/src/main/resources/LDA_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" afterPath="$PROJECT_DIR$/src/main/resources/Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries.txt" />
     </list>
     <ignored path="KBPEvidence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,9 +37,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/word2vec/WordTwoVec.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="172" column="35" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+              <caret line="173" column="35" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="false" />
+                <marker date="1462233538120" expanded="true" signature="799:845" placeholder="/**...*/" />
+                <marker date="1462233538120" expanded="true" signature="1049:6744" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,9 +51,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+              <caret line="154" column="21" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="false" />
+                <marker date="1462233538100" expanded="true" signature="1403:2218" placeholder="{...}" />
+                <marker date="1462233538100" expanded="true" signature="2366:7011" placeholder="{...}" />
+                <marker date="1462233538100" expanded="true" signature="4672:4753" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -86,10 +65,10 @@
       <file leaf-file-name="TRECEvaluationResultFileGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4237856">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state vertical-scroll-proportion="2.480737">
+              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
               <folding>
-                <element signature="e#0#6815#0" expanded="true" />
+                <element signature="e#0#6809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,11 +78,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="60" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#7657#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitterRankingFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/LuceneQueryTwitterRankingFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluation.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java" />
       </list>
@@ -347,130 +324,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hashtag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="word2vec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KBPEvidence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterHashTagRecommendation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hashtag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KBPEvidence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterHashTagRecommendation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hashtag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KBPEvidence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterHashTagRecommendation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hashtag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LDA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KBPEvidence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterHashTagRecommendation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hashtag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1172,31 +1025,43 @@
       <option name="project" value="LOCAL" />
       <updated>1462225696530</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Pushed the code from github.iu.edu to github.com">
+      <created>1462226832267</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1462226832267</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Pushed the code from github.iu.edu to github.com">
+      <created>1462227037140</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1462227037140</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7536" sideWeight="0.50293684" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49706313" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41898528" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12102874" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2187959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5433715" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32783884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6368" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41898528" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1230,7 +1095,8 @@
     <MESSAGE value="Added the LDA computation and result file from Graphlab API onto the resources directory" />
     <MESSAGE value="Added the TREC Eval Documents generator code" />
     <MESSAGE value="Added the trec evaluation query and result files files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the trec evaluation query and result files files" />
+    <MESSAGE value="Pushed the code from github.iu.edu to github.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushed the code from github.iu.edu to github.com" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1545,13 +1411,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Word2Vec_Query_Tags.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1574,9 +1434,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Search/LuceneQueryTwitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+          <caret line="154" column="21" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="false" />
+            <marker date="1462233538100" expanded="true" signature="1403:2218" placeholder="{...}" />
+            <marker date="1462233538100" expanded="true" signature="2366:7011" placeholder="{...}" />
+            <marker date="1462233538100" expanded="true" signature="4672:4753" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -1584,30 +1447,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/word2vec/WordTwoVec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="35" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+          <caret line="173" column="35" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="false" />
+            <marker date="1462233538120" expanded="true" signature="799:845" placeholder="/**...*/" />
+            <marker date="1462233538120" expanded="true" signature="1049:6744" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.36715868">
+            <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/GroundTruthTRECEvaluationFileGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="60" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#7657#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/twiiter/hashtag/Evaluation/TRECEvaluationResultFileGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4237856">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state vertical-scroll-proportion="2.480737">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding>
-            <element signature="e#0#6815#0" expanded="true" />
+            <element signature="e#0#6809#0" expanded="true" />
           </folding>
         </state>
       </provider>

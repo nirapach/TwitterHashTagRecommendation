@@ -18,17 +18,19 @@ import org.apache.lucene.search.similarities.DefaultSimilarity;
 import org.apache.lucene.store.FSDirectory;
 
 import java.io.*;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.Map;
 
 
 public class GroundTruthTRECEvaluationFileGenerator {
 
-    private static final String TAB_DELIMITER = "\t";
+    private static final String TAB_DELIMITER = " ";
     private static final String NEW_LINE_SEPARATOR = "\n";
     //CSV file header
-    private static final String FILE_HEADER = "query-number"+"\t"+"Q0"+"\t"+"document-id"+"\t"+"rank"+"\t"+"score"+"\t"+"Exp";
+    private static final String FILE_HEADER = "query-number"+" "+"Q0"+" "+"document-id"+" "+"relevance";
     private static String TWEETNO = "TweetNo";
     private static String TWEETS = "Tweet";
     private static String HASHTAGS = "Hashtag";
@@ -61,6 +63,7 @@ public class GroundTruthTRECEvaluationFileGenerator {
         File[] files = datadirectory.listFiles();
 
         BufferedReader fileReader = null;
+        BufferedReader fileReaderNotWord = null;
         FileWriter fileWriter = null;
 
         //lucene queries parser and reader
@@ -79,17 +82,17 @@ public class GroundTruthTRECEvaluationFileGenerator {
         try {
             //create File object
             //File writer
-            File file = new File(resultdirectory + "Word2vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries" + "." + filetype);
+            File file = new File(resultdirectory + "Word2Vec_GroundTruth_Evaluation_Tweet_Document_for_the_queries" + "." + filetype);
             String filename = file.getAbsolutePath();
             fileWriter = new FileWriter(filename);
             int count =0;
-            for (int i = 0; i < files.length; i++) {
+            for (int i = 0; i < files.length-1; i++) {
                 if (!files[i].isDirectory() && !files[i].isHidden() && files[i].canRead() && files[i].exists()) {
 
                     //Create the file reader
                     //List<ArrayList> recommendedTags = new ArrayList();
                     fileReader = new BufferedReader(new FileReader(files[i]));
-
+                    fileReaderNotWord =new BufferedReader(new FileReader(files[i+1]));
                     //Write the CSV file header
                     fileWriter.append(FILE_HEADER.toString());
                     //Add a new line separator after the header
@@ -97,22 +100,30 @@ public class GroundTruthTRECEvaluationFileGenerator {
 
                     System.out.println("Writing Scored Text File for " + file.getAbsolutePath());
                     String line = "";
+                    String notLine="";
 
                     //Read the CSV file header to skip it
                     fileReader.readLine();
 
-                    while ((line = fileReader.readLine()) != null) {
+                    while (((line = fileReader.readLine()) != null) && ((notLine=fileReaderNotWord.readLine()) != null)) {
                         count += 1;
                         //Get all tokens available in line
                         String mentionWord = line;
+                        String NotPresentWord=notLine;
                         //lucene phrase query
                         PhraseQuery queryMentions = new PhraseQuery();
+                        PhraseQuery queryMentionsNot = new PhraseQuery();
 
                         queryMentions.add(new Term(TWEETS, mentionWord));
+
+                        queryMentionsNot.add(new Term(TWEETS, NotPresentWord));
+
                         BooleanQuery booleanQueryMust = new BooleanQuery();
                         BooleanQuery booleanQueryMustNot = new BooleanQuery();
+
                         booleanQueryMust.add(queryMentions, BooleanClause.Occur.MUST);
-                        booleanQueryMustNot.add(queryMentions, BooleanClause.Occur.MUST_NOT);
+
+                        booleanQueryMustNot.add(queryMentionsNot, BooleanClause.Occur.MUST);
                         //do the search
                         TopDocs hitsMust = searcher.search(parser.parse(parser.escape(String.valueOf(booleanQueryMust))), 10);
                         TopDocs hitsMustNot = searcher.search(parser.parse(parser.escape(String.valueOf(booleanQueryMustNot))), 10);
@@ -132,7 +143,9 @@ public class GroundTruthTRECEvaluationFileGenerator {
                             fileWriter.append(TAB_DELIMITER);
                             fileWriter.append(NEW_LINE_SEPARATOR);
 
+
                         }
+
                         //this is for relevancy must not results
                         for (ScoreDoc scoreDoc : hitsMustNot.scoreDocs) {
                             Document d = searcher.doc(scoreDoc.doc);
@@ -148,6 +161,7 @@ public class GroundTruthTRECEvaluationFileGenerator {
                             fileWriter.append(NEW_LINE_SEPARATOR);
 
                         }
+
 
                     }
 

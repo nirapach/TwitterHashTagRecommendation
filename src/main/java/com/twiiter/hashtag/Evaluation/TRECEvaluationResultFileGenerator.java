@@ -28,10 +28,10 @@ import java.util.TreeMap;
 
 public class TRECEvaluationResultFileGenerator {
 
-    private static final String TAB_DELIMITER = "\t";
+    private static final String TAB_DELIMITER = " ";
     private static final String NEW_LINE_SEPARATOR = "\n";
     //CSV file header
-    private static final String FILE_HEADER = "query-number"+"\t"+"Q0"+"\t"+"document-id"+"\t"+"rank"+"\t"+"score"+"\t"+"Exp";
+    private static final String FILE_HEADER = "query-number"+" "+"Q0"+" "+"document-id"+" "+"rank"+" "+"score"+" "+"Exp";
     private static String TWEETNO = "TweetNo";
     private static String TWEETS = "Tweet";
     private static String HASHTAGS = "Hashtag";
